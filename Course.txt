@@ -1,0 +1,19 @@
+#Flat File
+
+CourseID: 11111
+Course Name: Java 101
+Description: Java Foundation
+Course Term: Fall
+Year: 2021
+
+CourseID: 22222
+Course Name: Java 102
+Description: Java Intermediate
+Course Term: Fall
+Year: 2021
+
+CourseID: 33333
+Course Name: Java 103
+Description: Java Advanced
+Course Term: Fall
+Year: 2021
