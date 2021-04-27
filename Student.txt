@@ -1,0 +1,22 @@
+#!/bin/python3
+
+#Entry program1 - student admin
+
+a=input("StudentID: ")
+#21IDT001
+b=input("First Name: ")
+#John
+c=input("Last Name: ")
+#Smith
+d=input("DOB: ")
+#01-01-1980
+e=input("Email: ")
+#jsmith@myemail.com
+f=input("Address: ")
+#123 iapp drive hr 99999
+g=input("Phone: ")
+#923-123-1234
+h=input("Status: ")
+#Active
+i=input("CourseID: ")
+#11111
