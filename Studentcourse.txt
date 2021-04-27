@@ -1,0 +1,36 @@
+#!/bin/python3
+
+#Student and Course Combo
+#Student ID: 21IDT001
+
+#Based on the Grade scale input the Marks
+
+# 100-90|A|Excellent
+# 89-70|B|Average
+# 69-0|C|Improve
+
+a = input("Enter 8 digit studentID: ")
+
+if a == "21IDT001":
+  print("valid,studentID")
+else:
+  print("invalid,studentID")
+
+b = eval(input("Enter 5 digit CourseID :"))
+c = (11111, 22222, 33333)
+ 
+if b in c:
+  print("valid,courseID")
+else:
+  print("invalid,courseID")
+
+p = int(input("Enter student marks :"))
+
+if (100>=p>=90):
+ print("Pass,Excellent")
+elif (89>=p>=70):
+ print("Pass,Average")
+elif (69>=p>=0):
+ print("Fail,Improve")
+else:
+ print("Enter number between 1 and 100 only")    
