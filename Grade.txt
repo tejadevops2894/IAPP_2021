@@ -1,0 +1,7 @@
+#Flat File
+
+#Grade Range | Grade Desc | Grade Status
+
+#100-90|A|Excellent
+#89-70|B|Average
+#69-0|C|Improve 
