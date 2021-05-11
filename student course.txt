@@ -1,0 +1,102 @@
+#!/bin/python3
+#student course
+
+#StudentID: "21IDT001"
+#FirstName: "John"
+#LastName: "Smith"
+#DOB: "01-01-1980"
+#Email: "jsmith@myemail.com"
+#Address: "123 iapp dr hr 99999"
+#Contact: "923-123-1234"
+#Status: "Active"
+#CourseID: "11111"
+ 
+#courses
+
+#CourseID: "11111"
+#CourseName: "Java 101"
+#Description: "Java Foundation"
+#CourseTerm: "Fall"
+#Year: "2021"
+
+#CourseID: "22222"
+#CourseName: "Java 102"
+#Description: "Java Intermediate"
+#CourseTerm: "Fall"
+#Year: "2021"
+
+#CourseID: "33333"
+#CourseName: "Java 103"
+#Description: "Java Advanced"
+#CourseTerm: "Fall"
+#Year: "2021"
+
+#Grade Scale
+
+#Grade Range | Grade Desc | Grade Status
+
+#100-90|A|Excellent
+#89-70|B|Average
+#69-0|C|Improve
+
+
+#Student and Course Combo
+#Student ID: 21IDT001
+
+#Based on the Grade scale input the Marks
+
+# 100-90|A|Excellent
+# 89-70|B|Average
+# 69-0|C|Improve
+
+a = input("Enter 8 digit studentID: ")
+
+if a == "21IDT001":
+  print("valid,studentID")
+else:
+  print("invalid,studentID")
+
+b = eval(input("Enter 5 digit CourseID: "))
+c = (11111, 22222, 33333)
+ 
+if b in c:
+  print("valid,courseID")
+else:
+  print("void")
+
+p = int(input("Enter student marks: "))
+
+if (100>=p>=90):
+  print("Pass,Excellent")
+elif (89>=p>=70):
+  print("Pass,Average")
+elif (69>=p>=0):
+  print("Fail,Improve")
+else:
+  print("Enter number between 1 and 100 only")    
+
+#!/bin/python3
+
+#final report
+#check your grade status using valid studentid and LFname only
+
+a = input("Enter StudentID or LFname: ")
+
+if (a == "21IDT001") or (a == "John Smith"):
+ print("StudentID: 21IDT001")
+ print("LFname: John Smith")
+ print("CourseID: 11111")
+ print("CourseName: Java 101")
+ print("Marks: 77")
+ print("Grade: Average")
+
+elif (a == "21IDT002") or (a == "Surya Teja"):
+ print("StudentID: 21IDT002")
+ print("LFname: Surya Teja")
+ print("CourseID: 11111")
+ print("CourseName: Java 101")
+ print("Marks: 80")
+ print("Grade: Good")
+
+else:
+ print("Enter valid StudentID or LFname")
