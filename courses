@@ -1,0 +1,19 @@
+#courses
+
+CourseID: "11111"
+CourseName: "Java 101"
+Description: "Java Foundation"
+CourseTerm: "Fall"
+Year: "2021"
+
+CourseID: "22222"
+CourseName: "Java 102"
+Description: "Java Intermediate"
+CourseTerm: "Fall"
+Year: "2021"
+
+CourseID: "33333"
+CourseName: "Java 103"
+Description: "Java Advanced"
+CourseTerm: "Fall"
+Year: "2021"
